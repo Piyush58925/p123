@@ -1,0 +1,62 @@
+Here is a basic HTML code for a registration form:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.form-container {
+			width: 300px;
+			margin: 50px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		
+		.form-control {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		.form-control:focus {
+			border-color: #aaa;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		
+		.button {
+			width: 100%;
+			padding: 10px;
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h2>Registration Form</h2>
+		<form>
+			<input type="text" class="form-control" placeholder="Full Name" required>
+			<input type="email" class="form-control" placeholder="Email Address" required>
+			<input type="password" class="form-control" placeholder="Password" required>
+			<input type="password" class="form-control" placeholder="Confirm Password" required>
+			<button class="button">Register</button>
+		</form>
+	</div>
+</body>
+</html>
